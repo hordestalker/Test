@@ -1,3 +1,120 @@
+body {
+    background: fixed url("warcraft.jpg")no-repeat 50% 50% black;
+    background-size: cover;
+    height: 1500px;
+    margin: 0;
+    padding: 0;
+}
+
 a {
-color:red;
-};
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.menu1 {
+    height: 40px;
+    background: #34495e;
+    padding: 12px;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+    opacity: 0.85;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-menu {
+    margin: 450px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    border: 0px solid #E5E5E5;
+    text-align: center;
+    background: #34495e;
+    opacity: 0.85;
+}
+
+.main-menu >li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 5px solid red;
+}
+
+.main-menu a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.main-menu li {
+    width: 200px;
+    height: 80px;
+    padding: 0;
+    background: black;
+    vertical-align: middle;
+}
+
+.sub-menu a {
+    padding: 10px;
+}
+
+.main-menu .sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin: 35px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    background: #FCF8E3;
+}
+
+.main-menu li:hover {
+    background: green;
+}
+
+.main-menu li:hover) {
+    background: yellow;
+}
+
+.sub-menu li:hover {}
+
+.main-menu .sub-pop {
+    margin: 5px 0px 0px 0px;
+}
+
+.main-menu > li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    border: 5px solid red;
+    margin: 0px 0px -5px -5px;
+}
+
+.main-menu a {
+    padding: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 25px;
+}
+
+.main-menu > li .comment {
+    display: none;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: 45px;
+    background: #34495e;
+    opacity: 0.75;
+    border-radius: 40px;
+}
+
+.main-menu > li:hover .comment {
+    display: block;
+}
+
+.knopka {
+    position: absolute;
+    font-size: 50px;
+    border: 10px solid white;
+    border-radius: 35px;
+}
