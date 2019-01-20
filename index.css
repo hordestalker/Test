@@ -73,10 +73,6 @@ a {
     background: green;
 }
 
-.main-menu li:hover {
-    background: yellow;
-}
-
 .sub-menu li:hover {}
 
 .main-menu .sub-pop {
